@@ -1,5 +1,5 @@
 {
-  "name": "threejs-journey-exercise",
+  "name": "retro-games-launcher",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "deploy": "vercel --prod"
   },
   "devDependencies": {
-    "vite": "^4.0.4"
+    "vite": "5.2.6"
   },
   "dependencies": {
     "lil-gui": "^0.17.0",
