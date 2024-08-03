@@ -9,12 +9,17 @@
     "deploy": "vercel --prod"
   },
   "devDependencies": {
-    "vite": "5.2.6"
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.5"
   },
   "dependencies": {
     "lil-gui": "^0.17.0",
-    "three": "^0.148.0",
-    "vercel": "^28.16.15",
-    "yarn": "^1.22.19"
+    "vercel": "^35.2.3",
+    "yarn": "^1.22.19",
+    "@react-three/drei": "^9.109.2",
+    "@react-three/fiber": "^8.16.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.158.0"
   }
 }
