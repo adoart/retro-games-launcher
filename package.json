@@ -13,13 +13,12 @@
     "vite": "^5.3.5"
   },
   "dependencies": {
-    "lil-gui": "^0.17.0",
-    "vercel": "^35.2.3",
-    "yarn": "^1.22.19",
     "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.16.8",
+    "lil-gui": "^0.17.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "three": "^0.158.0"
+    "three": "^0.158.0",
+    "vercel": "^35.2.3"
   }
 }
