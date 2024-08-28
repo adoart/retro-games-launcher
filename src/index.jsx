@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client'
 import { Canvas } from '@react-three/fiber'
 import Main from "./main.jsx";
 import React from "react";
+import {FetchContent} from "./fetchContent.jsx";
+
+<FetchContent/>
 
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
@@ -18,4 +21,5 @@ root.render(
     >
         <Main />
     </Canvas>
+
 )
