@@ -1,7 +1,7 @@
 import React from 'react';
 import {MeshReflectorMaterial} from '@react-three/drei';
 
-function Floor() {
+export default function Floor() {
 
   return (
       <mesh rotation-x={-Math.PI / 2} position={[0, -1, 0]}>
@@ -21,5 +21,3 @@ function Floor() {
       </mesh>
   );
 }
-
-export default Floor;

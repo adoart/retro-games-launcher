@@ -7,6 +7,12 @@ export default {
     server:
     {
         host: true,
+        cors: {
+            origin: "http://localhost:5173",
+            methods: ["GET"],
+            allowedHeaders: ["Content-Type", "Access-Control-Allow-Origin"],
+            preflightContinue: true
+        },
         open: !isCodeSandbox // Open if it's not a CodeSandbox
     },
     build:
