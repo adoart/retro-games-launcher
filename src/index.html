@@ -9,5 +9,11 @@
 <body>
     <div id="root"></div>
     <script type="module" src="index.jsx"></script>
+    <!-- Just to make ApifyClient happy we make a dummy process.env object -->
+    <script>
+        window.process = {
+            env: {}
+        };
+    </script>
 </body>
 </html>
