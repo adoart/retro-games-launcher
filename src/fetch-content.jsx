@@ -10,8 +10,12 @@ const fetchApify = async (url) => {
     // const { items } = await client.dataset(run.defaultDatasetId).listItems();
 
     // Fetches results from the actor's dataset.
-    const { items } = await client.dataset("adoart~navigation-links-dataset").listItems();
+    const { items } = await client.dataset("adoart~arcade-games-links-dataset").listItems();
 
+    //store data in local storage
+    localStorage.setItem('arcade-games', JSON.stringify(items));
+
+    console.log('localStorage item 11 iframe:', JSON.parse(localStorage.getItem('arcade-games'))[11].iframe);
     return items;
 };
 

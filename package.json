@@ -9,27 +9,21 @@
     "deploy": "vercel --prod"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.3.5"
+    "@vitejs/plugin-react": "^4.3.2",
+    "vite": "^5.4.8"
   },
   "dependencies": {
-    "@react-three/drei": "^9.111.3",
-    "@react-three/fiber": "^8.16.8",
-    "axios": "^1.7.5",
-    "apify-client": "^2.9.5",
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "apify-client": "^2.9.6",
+    "axios": "^1.7.7",
     "cheerio": "^1.0.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "electron": "^32.0.1",
     "events": "^3.3.0",
-    "lil-gui": "^0.17.0",
-    "nightmare": "^3.0.2",
-    "proxy-agent": "^6.4.0",
-    "puppeteer": "^23.2.1",
-    "puppeteer-core": "^23.2.1",
+    "lil-gui": "^0.19.2",
+    "npm-check": "^6.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "three": "^0.158.0",
-    "vercel": "^35.2.3"
+    "three": "^0.169.0",
+    "vercel": "^37.8.0"
   }
 }
